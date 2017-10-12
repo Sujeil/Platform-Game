@@ -534,7 +534,8 @@ function stopMove(){
 
 function moveUp() {
 	if (playerCharacter.y >= 170) {
-		playerCharacter.speedY = -7;
+        playerCharacter.speedY = -14;
+        playerCharacter.speedY = -7;
 	}
 }
 
